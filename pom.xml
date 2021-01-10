@@ -4,10 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.weipin.springcloud</groupId>
+    <groupId>com.alibaba.springcloud</groupId>
     <artifactId>cloud2020</artifactId>
     <version>1.0.0</version>
-    <modules></modules>
+    <modules>
+        <module>cloud_user</module>
+        <module>cloud_payment</module>
+        <module>cloud_payment_interface</module>
+    </modules>
     <packaging>pom</packaging>
 
     <!-- 统一管理jar包版本 -->
